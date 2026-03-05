@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="giftGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <linearGradient id="ribbonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffd700"/>
+      <stop offset="100%" style="stop-color:#f5af19"/>
+    </linearGradient>
+  </defs>
+  <rect x="15" y="40" width="70" height="50" rx="5" fill="url(#giftGrad)"/>
+  <rect x="10" y="30" width="80" height="15" rx="3" fill="url(#giftGrad)"/>
+  <rect x="43" y="30" width="14" height="60" fill="url(#ribbonGrad)"/>
+  <rect x="15" y="55" width="70" height="14" fill="url(#ribbonGrad)"/>
+  <ellipse cx="50" cy="25" rx="15" ry="10" fill="url(#ribbonGrad)"/>
+  <ellipse cx="35" cy="22" rx="10" ry="7" fill="url(#ribbonGrad)"/>
+  <ellipse cx="65" cy="22" rx="10" ry="7" fill="url(#ribbonGrad)"/>
+  <circle cx="50" cy="25" r="5" fill="#f5af19"/>
+</svg>

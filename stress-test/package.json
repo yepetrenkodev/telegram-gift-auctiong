@@ -1,0 +1,15 @@
+{
+  "name": "stress-test",
+  "version": "1.0.0",
+  "description": "Stress testing tools for Telegram Gift Auction",
+  "scripts": {
+    "start": "ts-node cli.ts",
+    "quick": "ts-node cli.ts --bots 5 --auctions 3 --duration 60",
+    "medium": "ts-node cli.ts --bots 15 --auctions 10 --duration 120",
+    "heavy": "ts-node cli.ts --bots 30 --auctions 20 --duration 300"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "socket.io-client": "^4.7.0"
+  }
+}
